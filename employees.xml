@@ -1,0 +1,19 @@
+{
+   "employees" : {
+      "employeeData" : [ {
+         "id" : "1",
+         "type" : "employeeData",
+         "firstName" : "Charlie",
+         "lastName" : "Chaplin",
+         "age" : 35,
+         "salary" : 2000.0
+      }, {
+         "id" : "2",
+         "type" : "employeeData",
+         "firstName" : "John",
+         "lastName" : "Rambo",
+         "age" : 36,
+         "salary" : 2500.0
+      } ]
+   }
+}
