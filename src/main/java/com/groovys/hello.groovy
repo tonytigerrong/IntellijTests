@@ -1,6 +1,6 @@
 package com.groovys
 import groovy.json.JsonSlurper
-class Example1{
+class SomeTest1 {
     static void main(String[] args){
         def string = "hello world groovy!"
         println(string)

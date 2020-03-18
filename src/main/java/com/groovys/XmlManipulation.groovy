@@ -1,7 +1,7 @@
 package com.groovys
 
 import groovy.xml.MarkupBuilder
-class Example {
+class XmlManipulation {
     static void main(String[] args) {
 /*
         def mB = new MarkupBuilder()

@@ -1,7 +1,7 @@
 package com.groovys
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
-class Example2{
+class JsonManipulation {
     static void main(String[] args){
         def obj = new JsonSlurper().parseText("""
             { "name": "John", "ID" : "1"}
