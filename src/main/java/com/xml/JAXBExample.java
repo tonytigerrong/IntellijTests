@@ -33,7 +33,7 @@ import java.io.File;
                     marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
                     marshaller.setProperty(MarshallerProperties.MEDIA_TYPE, "application/json");//for json
-                    marshaller.setProperty(MarshallerProperties.JSON_INCLUDE_ROOT, true);//for json
+                    marshaller.setProperty(MarshallerProperties.JSON_INCLUDE_ROOT, true);//for json 
 
                     marshaller.marshal(empList, new File("./employees.xml"));
                     //marshaller.marshal(empList, System.out);
